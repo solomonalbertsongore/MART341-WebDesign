@@ -1,7 +1,7 @@
-1)The world wide web are all of the websites that we use from Github all of the way to Netflix! The internet itself is what the web runs on, so essentially servers that hold everything that has been made on the web. The internet is what connects everything. 
-2)From my understanding the internet is essentially a ton of connected computer servers around the world that make the internet possible. They connect to eachother and transfer all of the data on the web to everyone when needed. 
-3)A directory (also known as a folder) is essentially a place to store all of your files, which is it's primary relationship to files. In order to get to your files, you must go through the proper directory or folder. 
-4)VCS acts sort of like an online cloud or data base. This is super beneficial to not only students but anyone that works with files regularly because you can refer back to VCS if you ever lose a file or need to revert back to an older copy. It also allows you to collaborate with others easier. All of these will be helpful throughout this class and designing websites. 
-5)I took one! 
-6)My favorite art is probably music. It plays a big role in my life and I have it on all of the time. But I also am very passionate about all of the arts, ranging from game design to simple sketching, spray painting, photography, dancing, and more. 
-7)I have renamed the screenshot.
+1) The world wide web are all of the websites that we use from Github all of the way to Netflix! The internet itself is what the web runs on, so essentially servers that hold everything that has been made on the web. The internet is what connects everything. 
+2) From my understanding the internet is essentially a ton of connected computer servers around the world that make the internet possible. They connect to eachother and transfer all of the data on the web to everyone when needed. 
+3) A directory (also known as a folder) is essentially a place to store all of your files, which is it's primary relationship to files. In order to get to your files, you must go through the proper directory or folder. 
+4) VCS acts sort of like an online cloud or data base. This is super beneficial to not only students but anyone that works with files regularly because you can refer back to VCS if you ever lose a file or need to revert back to an older copy. It also allows you to collaborate with others easier. All of these will be helpful throughout this class and designing websites. 
+5) I took one! 
+6) My favorite art is probably music. It plays a big role in my life and I have it on all of the time. But I also am very passionate about all of the arts, ranging from game design to simple sketching, spray painting, photography, dancing, and more. 
+7) I have renamed the screenshot.
