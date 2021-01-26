@@ -2,7 +2,7 @@
     - https://www.valvesoftware.com/en/
     - https://www.blizzard.com/en-us/
     - https://www.twitch.tv/
-2) The relationship between an IP address and DNS is that DNS is the naming system used in order to keep organization and identify all tech so they can talk to each other. The DNS gives computers, phones, and more there IP addresses and then uses that address to identify them when needed.
+2) The relationship between an IP address and DNS is that DNS is the naming system used in order to keep organization and identify all tech so they can talk to each other. The DNS gives computers, phones, and more there IP addresses and then uses that address to find and communicate with them later.
 3) Cookies are small files that contain information for each individual user, such as a username, which is then used to identify them later.
 4) Three essential parts of a URL are:
     - Protocol
@@ -11,4 +11,4 @@
 5) 3 things I've learned so far:
     - How DNS helps organize and identify everyone on the internet.
     - How internet is distributed to everyone through physical cables in the ocean.
-    - I learned about Vint Cerf and his impact on the humanity and the internet.
+    - I learned about Vint Cerf and his impact on humanity and the internet.
