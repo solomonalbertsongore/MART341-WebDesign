@@ -2,4 +2,4 @@
      Browsers used:
           - Chrome
 2) A markup language essentially builds a page. The most common one used is HTML.
-3)../images/first-webpage-screenshot.png
+3) ![first-website](first-webpage-screenshot.png)
