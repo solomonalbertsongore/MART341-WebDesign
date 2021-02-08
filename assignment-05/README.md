@@ -15,4 +15,4 @@ weeks content was pretty easy, since I've done some similar stuff before.
 I still forget about how to embed images and such every once in a while but it's
 easy to look up on the site.
 
-![Screenshot of Work](/images/aboutpagescreenshot.png)
+![Screenshot of Work](./images/aboutpage-screenshot.png)
