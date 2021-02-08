@@ -1,7 +1,7 @@
 1) The site I visited was a steaming site for video games known as Twitch.
-The site itself was actually really plane. Basically all that was available to
+The site itself was actually really plain. Basically all that was available to
 read was the text of the stream title and the game the gamer was playing.
-There also weren't as many games being stream, and overall the website looked
+There also weren't as many games being streamed, and overall the website looked
 super simple. Now it has different color schemes, all the games you can think
 of, a more interactive chat, and so on. It has changed a ton visually and
 definitely for the better. But I think something cool is that while there
@@ -15,4 +15,4 @@ weeks content was pretty easy, since I've done some similar stuff before.
 I still forget about how to embed images and such every once in a while but it's
 easy to look up on the site.
 
-![Screenshot of Work](./images/aboutpagescreenshot.png)
+![Screenshot of Work](/images/aboutpagescreenshot.png)
