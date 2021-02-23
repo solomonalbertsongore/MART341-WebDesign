@@ -7,6 +7,6 @@ Even search bars count, so probably every modern website has at least some form 
 A selection input would be used for online quizzes, surveys, perhaps even for ordering online (selection options). A button input usually is
 for a password submit, but could also be used to open up other pages, start or end something, etc.  
 
-3)Similar to last assignment I just followed the list of items needed on the page as I went. I saved super often (every time I made a change)
+3) Similar to last assignment I just followed the list of items needed on the page as I went. I saved super often (every time I made a change)
 and always checked to make sure things still worked afterword's. I also had to reference W3 Schools and the class module quite often
 to ensure I was using the correct tags. I think this took me around an hour to an hour and a half in total.
