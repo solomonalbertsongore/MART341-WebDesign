@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="assignment-07 for web-design (341)">
+    <meta name="author" content="Solomon Albertson-Gore">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 07</title>
+    <style>
+      table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 3px;
+
+      }
+      th {
+        background-color:crimson;
+
+      }
+      td {
+        background-color:salmon;
+      }
+    </style>
+  </head>
+  <body>
+  <center><h1>Contact</h1></center>
+
+    <hr />
+    <!-- Not sure if putting center tag in front of the other tags is too sloppy (however it looks sloppy so I imagine it is). My apologies! I kind of forgot how to
+         do CSS so once we cover that it won't be like this again. -->
+    <center><img src="./images/sushi-hana-logo.png" width="300" alt="Sushi Hana Logo" title="Sushi Hana Logo"></center>
+
+    <center><address>
+      (406)549-7979 <br />
+      403 N Higgins Ave <br />
+      Missoula, MT <br />
+      59802 <br />
+      <a href="mailto:manager@sushimissoula.com">manager@sushimissoula.com</a>
+    </address></center>
+
+    <br />
+
+    <table width="100%">
+      <tr>
+        <th></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+        <th scope="col">Saturday</th>
+        <th scope="col">Sunday</th>
+      <tr/>
+      <tr>
+        <th scope="row">Hours</th>
+          <td>11:30AM–3PM, 5–9:30PM</td>
+          <td>11:30AM–3PM, 5–9:30PM</td>
+          <td>11:30AM–3PM, 5–9:30PM</td>
+          <td>11:30AM–3PM, 5–9:30PM</td>
+          <td>11:30AM–3PM, 5–10:00PM</td>
+          <td>11:30AM–3PM, 5–10:00PM</td>
+          <td>5–9:30PM</td>
+      </table>
+
+      <hr />
+
+      <form action="./backend/action-page.php" method="get" id="customer-comments" class="customer-comments">
+        <center><p>What is your favorite section of our menu?!</p>
+          <select name="favorite_menu_section">
+            <option value="mak_spec">Makizushi Specialties</option>
+            <option value="makizushi">Makizushi</option>
+            <option value="veg_sushi">Vegetable Sushi</option>
+            <option value="nigiri">Nigiri</option>
+            <option value="sashimi">Sashimi</option>
+            <option value="moriawase">Moriawase</option>
+            <option value="teriyaki">Teriyaki</option>
+            <option value="curry">Curry</option>
+            <option value="katsu">Katsu</option>
+            <option value="tempura">Tempura</option>
+            <option value="starters">Starters</option>
+          </select>
+        <!-- <input type="submit" name="submit" value="Submit" /></center> -->
+      </form>
+
+      <form action="./backend/action-page.php" method="get" id="customer-comments" class="customer-comments">
+        <center><p>Do you prefer to eat at our resturant in the afternoon, evening, or both?</p>
+          <input type="checkbox" name="afternoon" value="afternoon" /> Afternoon
+          <input type="checkbox" name="evening" value="evening" /> Evening
+          <br />
+          <br />
+          <!-- <input type="submit" name="time_submit" value="Submit" /> -->
+        </center>
+      </form>
+
+
+      <center><h3>Comments?</h3></center>
+
+      <form action="./backend/action-page.php" method="get" id="customer-comments" class="customer-comments">
+        <textarea name="comments" rows="5" cols="268" placeholder="Please feel free to add comments and suggestions here!"></textarea>
+        <br />
+        <br />
+        <center><input type="submit" name="submit" value="Submit Responses" /></center>
+      </form>
+
+
+  </body>
+</html>
