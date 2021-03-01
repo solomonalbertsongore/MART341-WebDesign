@@ -3,5 +3,5 @@ them out. Spans are inline changes to content using the style tag and forms of C
 element can have a specific id. For example, if you are collecting data from a user, an id tag would be used to identify the input box they used and what they typed. Classes however can be used on as many things as you'd like, which makes them great for things like styling.
 2) The advantage of using a service like Youtube for videos is that it's cheap, easy to do, and loads fast. The disadvantage
 is that Youtube could take down the content, the link could expire, it could just disappear and so on. If Youtube itself went down all content would be lost all together.
-3) The biggest challenge I had this week was finding out how to embed media. I overcame this by going over the code, rereading instructions and some things on the module.
-Turns out that I jumped a couple of steps and tried to do something more complicated than actually necessary to make the media appear.
+3) The biggest challenge I had this week was embedding media. I overcame this by going over the code, re-reading instructions and some things on the module.
+Turns out that I jumped a couple of steps and tried to do something more complicated (use the audio and video tags)than actually necessary to make the media appear.
