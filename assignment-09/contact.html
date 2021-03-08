@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignment 9 for Intro to Web Design"
+    <meta name="author" content="Solomon Albertson-Gore"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+      nav{
+        background-color: aqua;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        width: 50%;
+      }
+      p{
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        width: 50%;
+      }
+      form{
+        text-align: center;
+        background-color: aliceblue;
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav>
+      <a href="./index.html">Home</a>
+      &vert;
+      <a href="./contact.html">Contact</a>
+      &vert;
+      <a href="./about.html">About</a>
+    </nav>
+
+    <br />
+
+    <p>If you have any additional questions or concerns, please feel <br/>
+    free to enter your information in the form below.
+    </p>
+
+    <br />
+    <br />
+
+    <form action="./pages/form-data.php" method="get" id="contact-info" class="contact-info">
+      <p>Name: <input type="text" name="name" id="name" /></p> <br />
+      <p>Email: <input type="text" name="email" id="email" /></p> <br />
+      <p>Number: <input type="text" name="phone-number" /></p> <br />
+      <input type="submit" name="sumbit" value="Submit Information">
+    </form>
+
+  </body>
+</html>
