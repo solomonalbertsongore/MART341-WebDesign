@@ -40,6 +40,10 @@
     form{
       text-align: center;
     }
+    table, th, td{
+      text-align: center;
+      margin: auto;
+    }
     </style>
   </head>
   <body>
@@ -62,10 +66,32 @@
 
     <div id="contact-form" class="general-writing">
       <form action="./pages/form-data.php" method="get" id="contact-info" class="contact-info">
-        <p>Name: <input type="text" name="name" id="name" /></p> <br />
-        <p>Email: <input type="text" name="email" id="email" /></p> <br />
-        <p>Number: <input type="text" name="phone-number" /></p> <br />
-        <input type="submit" name="sumbit" value="Submit Information">
+        <table>
+          <tr>
+            <th></th>
+            <th>Contact Info</th>
+          <tr/>
+          <tr>
+              <th scope="row">Name:</th>
+              <td><input type="text" name="name" id="name" /></p></td>
+          </tr>
+          <tr>
+              <th scope="row">Email:</th>
+              <td><input type="text" name="email" id="email" /></td>
+          </tr>
+          <tr>
+              <th scope="row">Phone Number:</th>
+              <td><input type="text" name="phone-number" /></td>
+          </tr>
+              <!-- <form action="./pages/form-data.php" method="get" id="contact-info" class="contact-info">
+                <p>Name: <input type="text" name="name" id="name" /></p> <br />
+                <p>Email: <input type="text" name="email" id="email" /></p> <br />
+                <p>Number: <input type="text" name="phone-number" /></p> <br />
+                <input type="submit" name="sumbit" value="Submit Information">
+              </form> -->
+          </table>
+          <br />
+        <input type="submit" name="send-data" value="Sumbit">
       </form>
     </div>
 
