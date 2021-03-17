@@ -1,17 +1,23 @@
 body {
-  background-color: #A5A5A5;
+  background-color: #6F6A6D;
+  width: 80%;
   text-align: center;
+  margin: auto;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #D20077
 
 }
 
 h1 {
   border-style: solid;
   border-width: 5px;
-  width: 50%;
+  width: 75%;
   margin: auto;
   color: #D20077;
-  border-color: #6F6A6D;
+  border-color: #E7E7E7;
   background-color: #6F6A6D;
+  opacity: .75;
   /* border-radius pinches the ends
   border-radius: 100%; */
 
@@ -21,7 +27,7 @@ h1 {
   border-style: solid;
   border-width: 5px;
   border-color: #E7E7E7;
-  background-color: : #FFFFFF;
+  background-color: : #A5A5A5;
   text-align: center;
   width: 75%;
   margin: auto;
@@ -30,23 +36,51 @@ h1 {
 
 #photograph {
   align-items: center;
-  size: 25%;
   border-style: solid;
-  border-width: 25px;
-  border-color: #D20077;
-  background-color: #FFFFFF;
-  padding: 15px;
+  border-width: 5px;
+  width: 75%;
+  margin: auto;
+  border-color: #E7E7E7;
+  background-color: #6F6A6D;
 
 }
 
 #photograph2 {
-  margin: auto; 
-  width: 25%;
   align-items: center;
   border-style: solid;
-  border-width: 25px;
+  border-width: 5px;
+  width: 75%;
+  margin: auto;
+  border-color: #E7E7E7;
+  background-color: #6F6A6D;
+
+}
+
+hr {
+  width: 50%;
+
+}
+
+/* #wholepage {
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  width: 50%;
+  margin: auto;
   border-color: #D20077;
-  background-color: #FFFFFF;
-  padding: 15px;
+  background-color: #6F6A6D;
+
+} */
+
+.sources {
+  align-items: center;
+  text-align: center;
+  list-style-position: inside;
+  border-style: solid;
+  border-width: 5px;
+  width: 75%;
+  margin: auto;
+  border-color: #E7E7E7;
+  background-color: #6F6A6D;
 
 }
