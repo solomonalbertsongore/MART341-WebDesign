@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: CorGarReg;
   text-align: center;
 
 }
@@ -11,17 +11,25 @@ hr {
 
 }
 #header {
-  line-height: .27
+  line-height: .27;
+  font-family: CorUniReg;
 
 }
 
 #title {
   font-size: 400%;
+  font-family: CorUniReg;
 
 }
 
 #author {
   font-size: 175%;
+  font-family: CorUniReg;
+
+}
+
+#date {
+  font-size: 109%;
 
 }
 
@@ -32,18 +40,18 @@ hr {
 
 }
 
-.serif {
-  font-family: serif;
+#paragraph1 {
+  text-indent: 1%;
 
 }
 
 p::first-line {
-  color: red;
+  color: navy;
 
 }
 
 p::first-letter {
-  font-family: serif;
+  font-family: tangerine;
   font-size: 200%;
 
 }
@@ -51,8 +59,9 @@ p::first-letter {
 /*Button*/
 
 #authorButton {
-  font-family: serif;
-  font-size: 120%;
+  font-family: CorUniBold;
+  font-weight: bold;
+  font-size: 150%;
   padding: 25px;
 
 }
