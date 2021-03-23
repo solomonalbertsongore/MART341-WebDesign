@@ -1,0 +1,70 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+hr {
+  width: 35%;
+
+/*Header*/
+
+}
+#header {
+  line-height: .27
+
+}
+
+#title {
+  font-size: 400%;
+
+}
+
+#author {
+  font-size: 175%;
+
+}
+
+/*Paragraphs*/
+
+.generaltext {
+  font-weight: bolder;
+
+}
+
+.serif {
+  font-family: serif;
+
+}
+
+p::first-line {
+  color: red;
+
+}
+
+p::first-letter {
+  font-family: serif;
+  font-size: 200%;
+
+}
+
+/*Button*/
+
+#authorButton {
+  font-family: serif;
+  font-size: 120%;
+  padding: 25px;
+
+}
+
+
+#authorButton:hover {
+  background-color: aliceblue;
+
+}
+
+#authorButton:active {
+  background-color: azure;
+  color: black;
+
+}
