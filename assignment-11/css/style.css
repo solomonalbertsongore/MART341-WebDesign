@@ -1,5 +1,5 @@
 * {
-  font-family: CorGarReg;
+  font-family: CorGarReg, CorUniReg, serif;
   text-align: center;
 
 }
@@ -12,19 +12,19 @@ hr {
 }
 #header {
   line-height: .27;
-  font-family: CorUniReg;
+  font-family: CorUniReg, CorGarReg, serif;
 
 }
 
 #title {
   font-size: 400%;
-  font-family: CorUniReg;
+  font-family: CorUniReg, CorGarReg, serif;
 
 }
 
 #author {
   font-size: 175%;
-  font-family: CorUniReg;
+  font-family: CorUniReg, CorGarReg, serif;
 
 }
 
@@ -59,7 +59,7 @@ p::first-letter {
 /*Button*/
 
 #authorButton {
-  font-family: CorUniBold;
+  font-family: CorUniBold, CorGarReg, serif;
   font-weight: bold;
   font-size: 150%;
   padding: 25px;
