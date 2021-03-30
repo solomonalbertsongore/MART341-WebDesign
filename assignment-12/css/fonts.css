@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'CorUniReg';
+  src: url(../fonts/CormorantUnicase-Regular.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'CorUniBold';
+  src: url(../fonts/CormorantUnicase-Bold.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'CorGarReg';
+  src: url(../fonts/CormorantGaramond-Regular.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'CorGarItalic';
+  src: url(../fonts/fonts/CormorantGaramond-Italic.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'CorGarBold';
+  src: url(../fonts/CormorantGaramond-Bold.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'CorGaraBoldItalic';
+  src: url(../fonts/CormorantGaramond-BoldItalic.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tangerine';
+  src: url(../fonts/Tangerine-Regular.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tangerineBold';
+  src: url(../fonts/Tangerine-Bold.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
