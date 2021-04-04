@@ -18,18 +18,22 @@ header {
   width: 100%;
   margin-top: 0;
   height: 4em;
+  text-transform: uppercase;
 
 }
 
 .menu-item {
   text-align: center;
   display: inline-block;
+  padding: 25px;
 
 }
 
 .menu-item a {
   color: white;
   text-decoration: none;
+  width: 25%;
+  padding: 25px;
 
 }
 
@@ -85,18 +89,55 @@ p::first-letter {
 #authorButton {
   font-family: CorUniBold, CorGarReg, serif;
   font-weight: bold;
-  font-size: 150%;
-  padding: 25px;
 
 }
 
 
 #authorButton:hover {
-  background-color: aliceblue;
+  background-color: #07005A;
+  size: 50%
 
 }
 
 #authorButton:active {
+  background-color: azure;
+  color: black;
+
+}
+
+#homeButton {
+  font-family: CorUniBold, CorGarReg, serif;
+  font-weight: bold;
+
+}
+
+
+#homeButton:hover {
+  background-color: #07005A;
+  size: 50%
+
+}
+
+#homeButton:active {
+  background-color: azure;
+  color: black;
+
+}
+
+#booksButton {
+  font-family: CorUniBold, CorGarReg, serif;
+  font-weight: bold;
+
+}
+
+
+#booksButton:hover {
+  background-color: #07005A;
+  size: 50%
+
+}
+
+#booksButton:active {
   background-color: azure;
   color: black;
 
