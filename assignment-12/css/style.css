@@ -142,3 +142,25 @@ p::first-letter {
   color: black;
 
 }
+
+#hobbitHole {
+  border-style: inset;
+  padding: 20px;
+
+}
+
+#hobbitHole2 {
+  border-style: inset;
+  padding: 20px;
+
+}
+
+#imgFLeft {
+  float: left;
+
+}
+
+#imgFRight {
+  float: right;
+
+}
