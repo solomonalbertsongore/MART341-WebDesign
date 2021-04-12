@@ -45,123 +45,78 @@ header {
 
 }
 
-#title {
-  font-size: 400%;
-  font-family: CorUniReg, CorGarReg, serif;
-
-}
-
-#author {
-  font-size: 175%;
-  font-family: CorUniReg, CorGarReg, serif;
-
-}
-
-#date {
-  font-size: 109%;
-
-}
-
-/*Paragraphs*/
-
-.generaltext {
-  font-weight: bolder;
-
-}
-
-#paragraph1 {
-  text-indent: 1%;
-
-}
-
-p::first-line {
-  color: navy;
-
-}
-
-p::first-letter {
-  font-family: tangerine;
-  font-size: 200%;
-
-}
-
 /*Button*/
 
-#authorButton {
+#menuButton {
   font-family: CorUniBold, CorGarReg, serif;
   font-weight: bold;
 
 }
 
 
-#authorButton:hover {
+#menuButton:hover {
   background-color: #E63B2E;
   size: 50%
 
 }
 
-#authorButton:active {
+#menuButton:active {
   background-color: #AAAAAA;
   color: white;
 
 }
 
-#homeButton {
+#dropButton {
   font-family: CorUniBold, CorGarReg, serif;
   font-weight: bold;
 
 }
 
 
-#homeButton:hover {
+#dropButton:hover {
   background-color: #E63B2E;
   size: 50%
 
 }
 
-#homeButton:active {
+#dropButton:active {
   background-color: #AAAAAA;
   color: white;
 
 }
 
-#booksButton {
-  font-family: CorUniBold, CorGarReg, serif;
-  font-weight: bold;
-
-}
-
-
-#booksButton:hover {
+.dropdown {
+  position: relative;
+  display: inline-block;
   background-color: #E63B2E;
-  size: 50%
 
 }
 
-#booksButton:active {
-  background-color: #AAAAAA;
-  color: white;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E63B2E;
 
 }
 
-#hobbitHole {
-  border-style: inset;
-  padding: 20px;
+.dropdown-content a {
+  color: black;
+  padding: 24px 32px;
+  display: block;
 
 }
 
-#hobbitHole2 {
-  border-style: inset;
-  padding: 20px;
+.dropdown-content a:hover {
+  background-color: inherit;
 
 }
 
-#imgFLeft {
-  float: left;
+.dropdown-content a:active {
+  background-color: #AAAAAA; color: white;
 
 }
 
-#imgFRight {
-  float: right;
+.dropdown:hover .dropdown-content {
+  display: block;
 
 }
