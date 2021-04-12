@@ -1,0 +1,167 @@
+* {
+  font-family: monospace;
+  text-align: center;
+  background-color: #DFE0E2
+
+}
+
+hr {
+  width: 35%;
+
+/*Header*/
+
+}
+
+header {
+  background-color: #E15634;
+  position: relative;
+  margin: auto;
+  width: 90%;
+  margin-top: 0;
+  height: 5 em;
+  /* text-transform: uppercase; */
+
+}
+
+.menu-item {
+  text-align: center;
+  display: inline-block;
+  padding: 25px;
+
+}
+
+.menu-item a {
+  color: black;
+  text-decoration: none;
+  width: 25%;
+  padding: 25px;
+
+}
+
+
+#header {
+  line-height: .27;
+  font-family: CorUniReg, CorGarReg, serif;
+
+}
+
+#title {
+  font-size: 400%;
+  font-family: CorUniReg, CorGarReg, serif;
+
+}
+
+#author {
+  font-size: 175%;
+  font-family: CorUniReg, CorGarReg, serif;
+
+}
+
+#date {
+  font-size: 109%;
+
+}
+
+/*Paragraphs*/
+
+.generaltext {
+  font-weight: bolder;
+
+}
+
+#paragraph1 {
+  text-indent: 1%;
+
+}
+
+p::first-line {
+  color: navy;
+
+}
+
+p::first-letter {
+  font-family: tangerine;
+  font-size: 200%;
+
+}
+
+/*Button*/
+
+#authorButton {
+  font-family: CorUniBold, CorGarReg, serif;
+  font-weight: bold;
+
+}
+
+
+#authorButton:hover {
+  background-color: #E63B2E;
+  size: 50%
+
+}
+
+#authorButton:active {
+  background-color: #AAAAAA;
+  color: white;
+
+}
+
+#homeButton {
+  font-family: CorUniBold, CorGarReg, serif;
+  font-weight: bold;
+
+}
+
+
+#homeButton:hover {
+  background-color: #E63B2E;
+  size: 50%
+
+}
+
+#homeButton:active {
+  background-color: #AAAAAA;
+  color: white;
+
+}
+
+#booksButton {
+  font-family: CorUniBold, CorGarReg, serif;
+  font-weight: bold;
+
+}
+
+
+#booksButton:hover {
+  background-color: #E63B2E;
+  size: 50%
+
+}
+
+#booksButton:active {
+  background-color: #AAAAAA;
+  color: white;
+
+}
+
+#hobbitHole {
+  border-style: inset;
+  padding: 20px;
+
+}
+
+#hobbitHole2 {
+  border-style: inset;
+  padding: 20px;
+
+}
+
+#imgFLeft {
+  float: left;
+
+}
+
+#imgFRight {
+  float: right;
+
+}
