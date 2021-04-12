@@ -8,17 +8,17 @@
 hr {
   width: 35%;
 
-/*Header*/
+/*Header - Nav Bar */
 
 }
 
 header {
   background-color: #E15634;
-  position: relative;
+  position: sticky;
   margin: auto;
   width: 90%;
   margin-top: 0;
-  height: 5 em;
+  /* height: 5 em; */
   /* text-transform: uppercase; */
 
 }
@@ -50,6 +50,7 @@ header {
 #menuButton {
   font-family: CorUniBold, CorGarReg, serif;
   font-weight: bold;
+  background-color: #E15634;
 
 }
 
@@ -66,9 +67,12 @@ header {
 
 }
 
+/* RECEIEVED HELP FROM W3SCHOOLS ON DROPDOWN. LINK IS "https://www.w3schools.com/howto/howto_css_dropdown.asp" */
+
 #dropButton {
   font-family: CorUniBold, CorGarReg, serif;
   font-weight: bold;
+  background-color: #E15634;
 
 }
 
@@ -118,5 +122,35 @@ header {
 
 .dropdown:hover .dropdown-content {
   display: block;
+
+}
+
+/* Placeholder Pictures */
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+#redFlower {
+  float: left;
+  padding-left: 250px;
+  padding-right: 50px;
+
+}
+
+#whiteFlower {
+  float: right;
+  padding-right: 250px;
+  padding-left: 50px;
+
+}
+
+/* Text */
+
+#homeParagraph {
+  width: 55%;
+  margin: auto;
 
 }
