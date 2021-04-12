@@ -1,7 +1,8 @@
 * {
   font-family: monospace;
   text-align: center;
-  background-color: #DFE0E2
+  background-color: #DFE0E2;
+  box-sizing: border-box;
 
 }
 
