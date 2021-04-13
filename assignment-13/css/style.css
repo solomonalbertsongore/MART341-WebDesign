@@ -183,18 +183,21 @@ img {
 
 .redFlower {
   float: left;
+  padding-right: 25px;
 
 }
 
 .whiteFlower {
   float: right;
+  padding-left: 25px;
 
 }
 
 /* Text */
 
 #homeParagraph {
-  width: 55%;
+  /* width: 55%; */
+  max-width: 600px;
   margin: auto;
 
 }
