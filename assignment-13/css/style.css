@@ -198,3 +198,12 @@ img {
   margin: auto;
 
 }
+
+#contactForum {
+  border-style: solid;
+  border-width: medium;
+  border-color: #071013;
+  width: 40%;
+  margin: auto;
+
+}
