@@ -9,122 +9,135 @@
 hr {
   width: 35%;
 
+}
+
 /*Header - Nav Bar */
 
+@media (max-width: 600px) {
+  header {
+    background-color: #E15634;
+    position: sticky;
+    margin: auto;
+    width: auto;
+    margin-top: 0;
+    /* height: 5 em; */
+    /* text-transform: uppercase; */
+  }
 }
 
-header {
-  background-color: #E15634;
-  position: sticky;
-  margin: auto;
-  width: 90%;
-  margin-top: 0;
-  /* height: 5 em; */
-  /* text-transform: uppercase; */
-
+@media (min-width: 600px) {
+  header {
+    background-color: #E15634;
+    position: sticky;
+    margin: auto;
+    width: 50%;
+    margin-top: 0;
+    /* height: 5 em; */
+    /* text-transform: uppercase; */
+  }
 }
 
-.menu-item {
+ .menu-item {
   text-align: center;
   display: inline-block;
   padding: 25px;
 
 }
 
-.menu-item a {
-  color: black;
-  text-decoration: none;
-  width: 25%;
-  padding: 25px;
+  .menu-item a {
+    color: black;
+    text-decoration: none;
+    width: 25%;
+    padding: 25px;
 
-}
-
-
-#header {
-  line-height: .27;
-  font-family: CorUniReg, CorGarReg, serif;
-
-}
-
-/*Button*/
-
-#menuButton {
-  font-family: CorUniBold, CorGarReg, serif;
-  font-weight: bold;
-  background-color: #E15634;
-
-}
+  }
 
 
-#menuButton:hover {
-  background-color: #E63B2E;
-  size: 50%
+  #header {
+    line-height: .27;
+    font-family: CorUniReg, CorGarReg, serif;
 
-}
+  }
 
-#menuButton:active {
-  background-color: #AAAAAA;
-  color: white;
+  /*Button*/
 
-}
+  #menuButton {
+    font-family: CorUniBold, CorGarReg, serif;
+    font-weight: bold;
+    background-color: #E15634;
 
-/* RECEIEVED HELP FROM W3SCHOOLS ON DROPDOWN. LINK IS "https://www.w3schools.com/howto/howto_css_dropdown.asp" */
-
-#dropButton {
-  font-family: CorUniBold, CorGarReg, serif;
-  font-weight: bold;
-  background-color: #E15634;
-
-}
+  }
 
 
-#dropButton:hover {
-  background-color: #E63B2E;
-  size: 50%
+  #menuButton:hover {
+    background-color: #E63B2E;
+    size: 50%
 
-}
+  }
 
-#dropButton:active {
-  background-color: #AAAAAA;
-  color: white;
+  #menuButton:active {
+    background-color: #AAAAAA;
+    color: white;
 
-}
+  }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-  background-color: #E63B2E;
+  /* RECEIEVED HELP FROM W3SCHOOLS ON DROPDOWN. LINK IS "https://www.w3schools.com/howto/howto_css_dropdown.asp" */
 
-}
+  #dropButton {
+    font-family: CorUniBold, CorGarReg, serif;
+    font-weight: bold;
+    background-color: #E15634;
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #E63B2E;
+  }
 
-}
 
-.dropdown-content a {
-  color: black;
-  padding: 24px 32px;
-  display: block;
+  #dropButton:hover {
+    background-color: #E63B2E;
+    size: 50%
 
-}
+  }
 
-.dropdown-content a:hover {
-  background-color: inherit;
+  #dropButton:active {
+    background-color: #AAAAAA;
+    color: white;
 
-}
+  }
 
-.dropdown-content a:active {
-  background-color: #AAAAAA; color: white;
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #E63B2E;
 
-}
+  }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E63B2E;
 
-}
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 24px 32px;
+    display: block;
+
+  }
+
+  .dropdown-content a:hover {
+    background-color: inherit;
+
+  }
+
+  .dropdown-content a:active {
+    background-color: #AAAAAA; color: white;
+
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
 
 /* Placeholder Pictures */
 
@@ -134,17 +147,13 @@ img {
 
 }
 
-#redFlower {
+.redFlower {
   float: left;
-  padding-left: 250px;
-  padding-right: 50px;
 
 }
 
-#whiteFlower {
+.whiteFlower {
   float: right;
-  padding-right: 250px;
-  padding-left: 50px;
 
 }
 
