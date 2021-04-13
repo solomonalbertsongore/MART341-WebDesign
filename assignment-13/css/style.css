@@ -36,6 +36,23 @@ hr {
   }
 }
 
+@media (min-width: 600px) {
+  p {
+    font-size: 125%;
+
+  }
+
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 150%;
+
+  }
+
+}
+
+
  .menu-item {
   text-align: center;
   display: inline-block;
