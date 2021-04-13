@@ -155,6 +155,24 @@ hr {
 
   }
 
+  #submitButton {
+    padding: 15px;
+    background-color: #E15634;
+    color: black;
+
+  }
+
+  #submitButton:hover {
+    background-color: #E63B2E;
+
+  }
+
+  #submitButton:active {
+    background-color: #AAAAAA;
+    color: white;
+
+  }
+
 /* Placeholder Pictures */
 
 img {
