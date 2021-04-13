@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'SourceCodeProReg';
+  src: url(../fonts/SourceCodePro-Regular.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'SourceCodeProRegItal';
+  src: url(../fonts/SourceCodePro-BlackItalic.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'SourceCodeProBold';
+  src: url(../fonts/SourceCodePro-Bold.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'SourceCodeProBoldItal';
+  src: url(../fonts/SourceCodePro-BoldItalic.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url(../fonts/Inconsolata-Regular.ttf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}

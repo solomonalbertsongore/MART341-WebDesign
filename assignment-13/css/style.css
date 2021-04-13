@@ -1,8 +1,8 @@
 * {
-  font-family: monospace;
   text-align: center;
   background-color: #DFE0E2;
   box-sizing: border-box;
+  font-family: SourceCodeProReg, Inconsolata, monospace;
 
 }
 
@@ -38,7 +38,7 @@ hr {
 
 @media (min-width: 600px) {
   p {
-    font-size: 125%;
+    font-size: 100%;
 
   }
 
@@ -46,7 +46,7 @@ hr {
 
 @media (max-width: 600px) {
   p {
-    font-size: 150%;
+    font-size: 130%;
 
   }
 
@@ -129,7 +129,7 @@ hr {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #E63B2E;
+    background-color: #AAAAAA;
 
   }
 
