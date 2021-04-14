@@ -1,0 +1,28 @@
+* {
+
+
+}
+
+h1 {
+  text-align: center;
+
+}
+
+#homeParagraph {
+  /* width: 55%; */
+  max-width: 750px;
+  margin: auto;
+
+}
+
+@media screen only (max-width: 600px;) {
+
+  .redFlower {display: none;}
+
+}
+
+.redFlower {
+  float: left;
+  padding-right: 25px;
+
+}
