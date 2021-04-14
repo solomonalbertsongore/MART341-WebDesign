@@ -21,8 +21,21 @@ h1 {
 
 }
 
+/* Pictures */
+
 .redFlower {
   float: left;
   padding-right: 25px;
+
+}
+
+.whiteFlower {
+  float: right;
+  padding-left: 25px;
+
+}
+
+.tree {
+  margin: inherit;
 
 }
