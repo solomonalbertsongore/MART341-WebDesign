@@ -1,5 +1,5 @@
 * {
-
+  font-family: sans-serif;
 
 }
 
@@ -15,9 +15,15 @@ h1 {
 
 }
 
-@media screen only (max-width: 600px;) {
+#contactForum {
+  text-align: center;
+  width: 50%;
+  margin: auto;
 
-  .redFlower {display: none;}
+}
+
+.label {
+  text-align: left;
 
 }
 
