@@ -1,0 +1,66 @@
+* {
+  font-family: sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+
+}
+
+#homeParagraph {
+  /* width: 55%; */
+  max-width: 750px;
+  margin: auto;
+
+}
+
+#contactForum {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+}
+
+/* canvas sizing from "https://stackoverflow.com/questions/5127937/how-to-center-canvas-in-html5" */
+
+#myCanvas {
+  border: 2px black solid;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.label {
+  text-align: left;
+
+}
+
+.section {
+  text-align: center;
+
+}
+
+/* Pictures */
+
+.redFlower {
+  float: left;
+  padding-right: 25px;
+
+}
+
+.whiteFlower {
+  float: right;
+  padding-left: 25px;
+
+}
+
+.tree {
+  margin: inherit;
+
+}
+
+/* Navbar */
