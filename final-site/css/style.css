@@ -1,9 +1,17 @@
 * {
   font-family: sans-serif;
-  background-color: black;
+  /* background-color: black; */
   margin: 0px;
   padding: 0px;
   /* border: 1px solid red; */
+  color: white;
+
+}
+
+body {
+  /* background-color: #ccf1ff; */
+  background-image: linear-gradient(to top, blue, purple);
+
 
 }
 
@@ -17,10 +25,22 @@ hr {
 
 }
 
-#homeParagraph {
+.contactPage {
+  background-image: linear-gradient(to left, red, black);
+
+}
+
+.aboutPage {
+  background-image: linear-gradient(to right, #22333B, #0A0908);
+
+}
+
+#homePageText {
   /* width: 55%; */
   max-width: 750px;
   margin: auto;
+  /* border-style: solid black 1px;
+  border-radius: 15px; */
 
 }
 
@@ -31,9 +51,14 @@ hr {
 
 }
 
+.title {
+  color: white;
+
+}
 
 .label {
   text-align: left;
+  color: white;
 
 }
 
@@ -42,21 +67,11 @@ hr {
 
 }
 
+.breadcrumb {
+  background-color: black;
+  color: white;
+  width: 100%;
+
+}
+
 /* Pictures */
-
-.redFlower {
-  float: left;
-  padding-right: 25px;
-
-}
-
-.whiteFlower {
-  float: right;
-  padding-left: 25px;
-
-}
-
-.tree {
-  margin: inherit;
-
-}
