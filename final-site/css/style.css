@@ -20,6 +20,11 @@ h1 {
 
 }
 
+p {
+  text-align: center;
+
+}
+
 hr {
   background-color: #282828;
 
@@ -75,3 +80,9 @@ hr {
 }
 
 /* Pictures */
+
+.imageLink {
+  border-style: inset;
+  padding: 0px;
+
+}
