@@ -10,7 +10,7 @@
 
 body {
   /* background-color: #ccf1ff; */
-  background-image: linear-gradient(to top, blue, purple);
+  background-image: linear-gradient(to top, #bdc3c7 , #2c3e50);
 
 
 }
@@ -31,12 +31,22 @@ hr {
 }
 
 .contactPage {
-  background-image: linear-gradient(to left, red, black);
+  background-image: linear-gradient(to left, #200122 , #6f0000);
 
 }
 
 .aboutPage {
-  background-image: linear-gradient(to right, #22333B, #0A0908);
+  background-image: linear-gradient(to right, #000428 , #004e92);
+
+}
+
+.threeDPage {
+  background-image: linear-gradient(to right, #1e130c  , #9a8478);
+
+}
+
+.photographyPage {
+  background-image: linear-gradient(to left, #360033 , #0b8793 );
 
 }
 
