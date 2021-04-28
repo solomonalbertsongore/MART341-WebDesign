@@ -1,12 +1,17 @@
-1) I chose to use Bulma's CSS Framework library.
+1) I didn't learn a ton more about web development overall, since I already knew some basics.
+However I did learn how data transfer/servers work however which was cool.
+I'm glad we went through it however as I got a great refresher and am much more comfortable with it now.
 
-2) I used a CDN, because it makes for a faster website and is easier to implement, and I don't have to host it myself.
+2)  I learned **SO** much about web design it's hard to say it all. Some big highlights
+for me was embedding and typography. They are both super useful tools. However just
+getting more comfortable with CSS was the biggest thing, and I'm so grateful for it.
+Learning things like div structures and how to style them improved my capabilities so
+much. 
 
-3) HTML5 opens a whole new door to web development. It allows developers to have much
-more flexibility with their work, giving them way more customizability with the websites
-they develop.
-
-4) My challenges this week were once again optimizing for mobile, and also getting JavaScript
-to actually draw something on the canvas. No matter what I tried, even when using others code,
-it wouldn't show up. I overcame the mobile optimization by constantly resizing my window to
-see if it worked as I went. With JavaScript, I looked up information and solutions for a quite a long time, reading as many forums as I could. Eventually I came across an answer for another similar problem a developer had and solved it. In the end it was because my canvas was after my ```<script>``` tag containing the JavaScript file. Made me laugh considering all the hours I put into it. Anyways, it was a good week! I really enjoyed Bulma and hope to become very familiar with it in the future.
+3) The only challenge I had with this assignment was a white space that kept appearing
+at the bottom of each page. If the page didn't contain enough content to fill the whole
+page there was this box of white that would always appear at the bottom. I read tons
+of forums and couldn't figure out what was causing it, so I'm assuming it was the CSS
+Framework I was using, Bulma. After researching for a long time and finding no solution
+I decided to just fill the white space using ```<br>``` tags. I'm not sure this was
+the proper was to handle it, but it was the solution I came up with.
