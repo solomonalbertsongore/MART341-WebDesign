@@ -50,6 +50,11 @@ hr {
 
 }
 
+.musicPage {
+  background-image: linear-gradient(to left, #c21500 , #ffc500 );
+
+}
+
 #homePageText {
   /* width: 55%; */
   max-width: 750px;
